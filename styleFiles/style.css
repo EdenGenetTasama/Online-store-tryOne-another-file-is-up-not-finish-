@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#logoImg{
+    width: 20vw;
+    height: 22vh;
+    left: 0%;
+  
+}
+
+#allUlId{
+    width: 70vw;
+    justify-content: space-around;
+}
+
+#sectionOfFirstPartPage{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin:2%;
+
+}
+/* //כותרת ראשונה בדף בית סקשיין */
+#headerInFirstSection{
+    font-family: 'Suez One', serif;
+    position: absolute;
+    right: 0%;
+    top:150px;
+    
+
+
+}
+
+#infoAboutTheStore{
+  
+    position: absolute;
+    top:200px;
+    right: 0%;
+
+}
+
+/* ///עיצוב תמונה בתוך הסקשן */
+#designImg{
+    position: absolute;
+    left: 0%;
+    width: 45vw;
+    height:75vh;
+    border-radius: 50%;
+
+    
+}
+
+#productInFirstPage{
+    position: relative;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    top: 550px;
+    
+}
+
+#firstProduct ,#secondProduct ,#thirdProduct ,#forthProduct{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    width:180px;
+    height: 130px;
+    font-size: 40px;
+
+    }
+    
+    
+
