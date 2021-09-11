@@ -1,6 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
+    background-color: rgb(192, 168, 192);
+    margin: 0 ;
+    padding: 0 !important;
     direction: rtl;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -14,16 +15,19 @@
   
 }
 
-#allUlId{
+#allUlId {
     width: 70vw;
-    justify-content: space-around;
+    justify-content: space-evenly ;
+  
 }
+
+
 
 #sectionOfFirstPartPage{
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin:2%;
+    
 
 }
 /* //כותרת ראשונה בדף בית סקשיין */
@@ -31,19 +35,41 @@
     font-family: 'Suez One', serif;
     position: absolute;
     right: 0%;
-    top:150px;
+    top:120px;
+    font-size: 30px;
     
 
 
 }
 
+
 #infoAboutTheStore{
   
     position: absolute;
-    top:200px;
+    top:180px;
     right: 0%;
+    font-size: 18px;
 
 }
+
+#startToShop{
+    position: absolute;
+    top:440px;
+    right: 0%;
+    font-size: 20px;
+    border-radius: 30%;
+    padding:10px!important;
+    
+
+}
+
+#startToShop:hover {
+    transition: 0.5s ease;
+    background-color: saddlebrown;
+ 
+}
+
+
 
 /* ///עיצוב תמונה בתוך הסקשן */
 #designImg{
@@ -52,27 +78,129 @@
     width: 45vw;
     height:75vh;
     border-radius: 50%;
+    margin: 4%;
 
     
 }
 
 #productInFirstPage{
     position: relative;
-    border-top: 3px solid black;
+    border-top: 2px solid black;
     display: flex;
     justify-content: space-around;
-    top: 550px;
+    top: 700px;
+
     
 }
 
-#firstProduct ,#secondProduct ,#thirdProduct ,#forthProduct{
+#designOfFirstProduct ,#designOfSecondProduct ,#designOfThirdProduct ,#designOfForthProduct{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
-    width:180px;
-    height: 130px;
+    /* background-color: blue; */
+    width:240px;
+    height: 270px;
     font-size: 40px;
 
     }
     
+#designOfFirstProduct:hover  , #designOfSecondProduct:hover,  #designOfThirdProduct:hover, #designOfForthProduct:hover{
+   opacity: 0.2;
+   transition: 0.5s ease;
+}
+
+.img__wrap {
+    position: relative;
+    height: 200px;
+    width: 250px;
+  }
+  
+  .img__description {
+    /* height: 40px;
+    width: 150px; */
     
+    position: absolute;
+    top:120px;
+    bottom: 0;
+    left: 0;
+    right: 60px;
+    color: black;
+    visibility: hidden;
+    font-size: 25px;
+    /* background-color: blanchedalmond; */
+}
+
+.img__wrap:hover .img__description {
+    width: 150px;
+    height: 35px;
+    visibility: visible;
+    opacity: 1;
+    transition:ease-in-out;
+
+  }
+
+
+  #newPrudactOnStore{
+    position: relative;
+    font-size: 40px;
+      top: 800px;
+    text-align: center;
+  }
+
+
+.partTwoOfPage{
+   display: flex;
+     justify-content: space-around;
+    position: absolute;
+      top:180%;
+      
+    }
+    
+    #imageOfPartTwo, #numberTwoNewStore , #numberThreeNewStore , #numberFourNewStore{
+        width: 200px;
+        height:  200px;
+    
+
+    
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    background-image: url(../imges/coversecond.jpg) !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100vw;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footerImg {
+    width: 55px;
+    height: 50px;
+    padding: 10px;
+    background-image: url(../imges/coversecond.jpg) !important;
+}
+
 
