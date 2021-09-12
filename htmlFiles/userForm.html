@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה</title>
+    <link rel="stylesheet" href="../styleFiles/style.css">
+    <link rel="stylesheet" href="../styleFiles/formDesing.css">
+
+</head>
+
+<body>
+
+    <header></header>
+
+
+    <main>
+        <form type="submit" id="formID">
+            <h2>טופס הרשמה</h2>
+            <label for="text">שם פרטי :</label>
+            <input type="text" value="" id="firstName" required>
+            <br>
+            <label for="text">שם משפחה :</label>
+            <input type="text" value="" id="lasttName" required>
+            <br>
+            <label for="text">תאריך לידה:</label>
+            <input type="date" value="" id="birthdayDate" required>
+           
+            <label for="text">מייל</label>
+            <input type="email" value="" id="userEmail">
+            <br>
+            <label for="password">סיסמא</label>
+            <input type="password" value=""  id="userPassword" minlength="6" maxlength = "15" required >
+            <br>
+            <label for="password">אימות סיסמא</label>
+            <input type="password" value="" id="userPasswordConfirm" required>
+            <br>
+            <button type="button" id="sendButton">לשליחה לחץ כאן</button>
+
+        </form>
+    </main>
+
+    <footer></footer>
+
+
+    <script src="../javaScriptFiles/formUser.js"></script>
+</body>
+
+</html>

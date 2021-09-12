@@ -70,8 +70,14 @@ var arrayImgOneStore=[
   "https://www.toyland.co.uk/wp-content/uploads/2020/02/Qn143JMKsMQn9fN4nBAyz9P3SkOVKgGMpxAwiRuA.jpeg"
 ]
 
-numberOneNewStore.innerHTML=`<img src=${arrayImgOneStore[0]} id="imageOfPartTwo">`
-numberTwoNewStore.innerHTML=`<img src=${arrayImgOneStore[1]} id="numberTwoNewStore">`
-numberThreeNewStore.innerHTML=`<img src=${arrayImgOneStore[2]} id="numberThreeNewStore">`
-numberFourNewStore.innerHTML=`<img src=${arrayImgOneStore[3]} id="numberFourNewStore">`
+// numberOneNewStore.innerHTML=`<img src=${arrayImgOneStore[0]} id="imageOfPartTwo">`
+// numberTwoNewStore.innerHTML=`<img src=${arrayImgOneStore[1]} id="numberTwoNewStore">`
+// numberThreeNewStore.innerHTML=`<img src=${arrayImgOneStore[2]} id="numberThreeNewStore">`
+// numberFourNewStore.innerHTML=`<img src=${arrayImgOneStore[3]} id="numberFourNewStore">`
 
+var userFormToSing = document.getElementById("userFormToSing")
+
+userFormToSing.onclick=()=>{
+  var url = "http://127.0.0.1:5500/htmlFiles/userForm.html?";
+  var windowForm = window.open(url,'_blank', 'location=yes,height=500,width=500,scrollbars=yes,status=no');
+}

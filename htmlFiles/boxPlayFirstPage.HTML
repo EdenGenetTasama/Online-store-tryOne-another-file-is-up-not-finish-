@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="../styleFiles/style.css">
-    <!-- CSS only -->
+    <link rel="stylesheet" href="../styleFiles/allPagesDesing.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <title>משחקי קופסא</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent" id="divOfNavBar">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="allUlId">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html" >דף הבית</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">דף הבית</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -30,7 +30,8 @@
                                 מוצרים
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../htmlFiles/boxPlayFirstPage.HTML" target="">משחקי קופסא</a></li>
+                                <li><a class="dropdown-item" href="../htmlFiles/boxPlayFirstPage.HTML" target="">משחקי
+                                        קופסא</a></li>
                                 <li><a class="dropdown-item" href="#">בובות וצעצועים</a></li>
                                 <li><a class="dropdown-item" href="#">משחקי יצירה</a></li>
 
@@ -46,18 +47,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">עגלת קניות</a>
                         </li>
-                        <li>
-                            <a href="../htmlFiles/boxPlayFirstPage.HTML" ><img src="../media/desingPage/search.png" class="navBarImg">
-                                
-                            </a>
-                            <a href="" >
-                                    <img src="../media/desingPage/user.png" class="navBarImg" id="userFormToSing">  
-                            </a>
-                            <a href="" ><img src="../media/desingPage/whatsapp.png" class="navBarImg"></a>
-                            
-                        </li>
                     </ul>
-                    
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">חפש</button>
+
+                    </form>
                     <a class="navbar-brand" href="#"><img src="../media/desingPage/logo.png" id="logoImg"></a>
 
                 </div>
@@ -66,80 +61,55 @@
     </header>
 
     <main>
-        <section id="sectionOfFirstPartPage">
-            <article id="introInfo">
-            </article>
-            <article id="paragraphOfInfo">
-            </article>
-            <article id="imageArticle">
-            </article>
+        <section id="headerPageOne">
+
+        </section>
+        <div>
+            <select name="text" id="" class="organizing">
+                <option value="">הנמכרים ביותר</option>
+                <option value="">מהזול ליקר</option>
+                <option value="">מהיקר לזול</option>
+                <option value="">מומלצים</option>
+
+            </select>
+        </div>
+        
+        <section id="sectionOfItem">
+            <article id="allStoreItem1"></article>
+            <article id="allStoreItem2"></article>
+            <article id="allStoreItem3"></article>
+            <article id="allStoreItem4"></article>
+            <article id="allStoreItem5"></article>
+            <article id="allStoreItem6"></article>
+            <article id="allStoreItem7"></article>
+            <article id="allStoreItem8"></article>
+            <article id="allStoreItem9"></article>
+            <article id="allStoreItem10"></article>
+            <!-- <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article>
+            <article id="allStoreItem"></article> -->
         </section>
 
 
 
 
-        <div id="productInFirstPage">
-
-            <div class="img__wrap" id="firstProduct">
-            </div>
-
-            <div class="img__wrap" id="secondProduct">
-            </div>
-
-            <div class="img__wrap" id="thirdProduct">
-            </div>
-
-
-            <div class="img__wrap" id="forthProduct">
-            </div>
-
-        </div>
-
-
-        <p id="newPrudactOnStore"></p>
-        <div class="partTwoOfPage" id="partTwoOfPageId">
-            <div id="numberOneNewStore"></div>
-
-            <div id="numberTwoNewStore"></div>
-
-            <div id="numberThreeNewStore"></div>
-
-            <div id="numberFourNewStore"></div>
-
-        </div>
-
-
     </main>
 
+    <footer></footer>
 
-
-    <!-- <footer>
-        <div !important>
-            <p class="footer"> עקבו אחרינו וקבלו עדכונים והטבות לפני כולם !<br> <img src="../../../../../project 1/imges/facebook.png"
-                    class="footerImg">
-                <img src="../../../../../project 1/imges/insta.png" class="footerImg"> <img src="../../../../../project 1/imges/tweet.png" class="footerImg">
-            </p>
-
-        </div>
-    </footer> -->
-
-
-    <script src="../javaScriptFiles/main.js"></script>
-    <!-- JavaScript Bundle with Popper -->
+    <!-- <script src="../javaScriptFiles/main.js"></script> -->
+    <script src="../javaScriptFiles/storeFirstPage.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
-
-<!-- Lorem ipsum dolor sit.
-Harum molestias voluptatum culpa!
-Dolorum natus pariatur aperiam.
-Qui suscipit quae corporis.
-Odio a dolor pariatur.
-Dignissimos reiciendis qui aut.
-Laboriosam minus aliquam dolorem!
-Voluptatum, ab. Nesciunt, architecto!
-Vitae, voluptates cumque. Inventore?
-Hic illum provident quisquam. -->
