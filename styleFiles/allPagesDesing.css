@@ -1,4 +1,26 @@
 #headerFirstPage{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+}
+
+.organizing{
+    margin: 30px;
+    width:20%;
+    font-size: 120%;
+
+}
+
+#sectionOfItem{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.desingOfAllObject{
+    width: 350px;
+    height:300px;
+    border: 3px solid blue;
+    margin: 25px;
 }
