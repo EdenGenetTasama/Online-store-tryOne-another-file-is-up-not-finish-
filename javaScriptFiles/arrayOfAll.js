@@ -1,16 +1,29 @@
 
 
 var arrayOfAllItem = [
-    {id: 1 ,name: "1 מונופול" , category: "משחקי קופסא" , description:"משחקי קופסא" , img:"" },
-    {id: 2 ,name:"2 מונופול" , category: "משחקי קופסא" , description: "משחקי קופסא", img:"" },
-    {id: 3 ,name: "3 מונופול", category: "משחקי קופסא" , description: "משחקי קופסא", img:""},
-    {id: 4 ,name:"4 מונופול" , category: "משחקי קופסא" , description: "משחקי קופסא", img:""},
-    {id: 5 ,name: "5 מונופול", category: "משחקי קופסא" , description:"משחקי קופסא" , img:""},
-    {id: 6 ,name: "6 מונופול", category: "משחקי קופסא" , description: "משחקי קופסא", img:""},
-    {id: 7 ,name: "1 מונופול" , category: "משחקי קופסא" , description:"משחקי קופסא" , img:"" },
-    {id: 8 ,name:"2 מונופול" , category: "משחקי קופסא" , description: "משחקי קופסא", img:"" },
-    {id: 9 ,name: "3 מונופול", category: "משחקי קופסא" , description: "משחקי קופסא", img:""},
-    {id:10 ,name:"4 מונופול" , category: "משחקי קופסא" , description: "משחקי קופסא", img:""},
-    {id: 11 ,name: "5 מונופול", category: "משחקי קופסא" , description:"משחקי קופסא" , img:""},
-    {id: 12 ,name: "6 מונופול", category: "משחקי קופסא" , description: "משחקי קופסא", img:""}
+    {id: 1 ,name: "7 בום!" , category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 20, pic:["https://piratz.co.il/wp-content/uploads/2020/04/209-247x300.png", ""]},
+    {id: 2 ,name:"מונופול", category: "משחקי קופסא", description: "מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , description: "משחקי קופסא", price: 12, pic:["https://d3m9l0v76dty0.cloudfront.net/system/photos/3549660/large/92cedf4baec56d28f404cbed37287ba2.jpg",""]},
+    {id: 3 ,name: "אסוציאציה", category: "משחקי קופסא" , description: "מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 30, pic:["https://konimboimages.s3.amazonaws.com/system/photos/1274452/large/aa0d9f8aaa2fc1a88880f21787ed1066.jpg",""]},
+    {id: 4 ,name:"תפוס כיוון" , category: "משחקי קופסא" , description: "מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 24, pic:["https://konimboimages.s3.amazonaws.com/system/photos/1274452/large/aa0d9f8aaa2fc1a88880f21787ed1066.jpg", ""]},
+    {id: 5 ,name: "חלומות", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 32 , pic:["https://d3m9l0v76dty0.cloudfront.net/system/photos/2881533/show/f2d1a3ab989dcc661435d0b3bc32ae92.jpg", ""]},
+    {id: 6 ,name: "שלוף משחק", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 45 , pic:["https://d3m9l0v76dty0.cloudfront.net/system/photos/4785720/large/aabb837ce7c79daf33060ffbeea69b60.jpg", ""]},
+    {id: 7 ,name: "פיקולו" , category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." ,price: 66 , pic:["https://www.sababakids.co.il/wp-content/uploads/2020/09/%D7%A4%D7%99%D7%A7%D7%95%D7%9C%D7%99%D7%A0%D7%95_optimized.png", ""]},
+    {id: 8 ,name:"ילדים מספרים" , category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcGlJctFPcr7IUX7zT2hd6-341Ue1TO4xvg&usqp=CAU", ""]},
+    {id: 9 ,name: "ניגודים", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://konimboimages.s3.amazonaws.com/system/photos/1274458/show/797186cc8bdc55e7dfdd9ec3167c1b04.jpg", ""]},
+    {id:10 ,name:"תפיסה" , category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://piratz.co.il/wp-content/uploads/2020/04/40026-247x300.png", ""]},
+    {id: 11 ,name: "צלילים", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://konimboimages.s3.amazonaws.com/system/photos/1274456/large/188b82b98298155e80d20ee528d37a6f.jpg", ""]},
+    {id: 12 ,name: "צורות", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://konimboimages.s3.amazonaws.com/system/photos/1269327/extra_large/cf6e21698f2318013d72ddd5526abe1d.jpg", ""]},
+    {id: 13 ,name: "סופר טקטיקו", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://img.mako.co.il/2016/11/30/super_taktiko.png", ""]},
+    {id:14 ,name:"דיקסיט" , category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך." , price: 16, pic:["https://www.hakubia.com/wp-content/uploads/2021/01/492-2-1.webp", ""]},
+    {id: 15 ,name: "חשבון", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://konimboimages.s3.amazonaws.com/system/photos/1269313/large/48e8ac62fd1cc88ee1f33d3718a83809.jpg", ""]},
+    {id: 16,name: "משחקי הכס", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://www.motke.co.il/webfiles/camoni/cms_files/fck/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%94%D7%9B%D7%A1(2).png", ""]},
+    {id: 17 ,name: "חתול עכבר", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["http://golanlagan.co.il/Cat_482584_3785.png", ""]},
+    {id: 18 ,name: "הר פטיש", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMogObB1xHjCECaNomcQy3434Lm9OG4b2_Lw&usqp=CAU", ""]},
+    {id: 19 ,name: "התנגשות", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://d3m9l0v76dty0.cloudfront.net/system/photos/2402679/large/49f9d07470a62d3dd9159b97538a4105.jpg", ""]},
+    {id: 20,name: "ראש בראש: באולינג", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://konimboimages.s3.amazonaws.com/system/photos/7018642/show/6c94979260b236d8294da05a41d0d549.jpg", ""]},
+    {id: 21,name: "קאטן: סוחרים וברבורים", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://mediland.co.il/tn_Cat_484476_8010.png", ""]},
+    {id: 22,name: "דומינו", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkpJzXbNGVNUZmgeVryCNbIXHIcSEjQA44EQ&usqp=CAU", ""]},
+    {id: 23,name: "עולם של קסם", category: "משחקי קופסא" , description:"מצרכי שונות נפשיים מדור מכונה היונקים מאוד המודרנית האדם במהלך.", price: 16 , pic:["https://www.hakubia.com/wp-content/uploads/2021/01/587-2-1.webp", ""]},
+
+
 ]

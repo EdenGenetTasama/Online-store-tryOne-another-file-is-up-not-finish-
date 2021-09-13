@@ -2,17 +2,9 @@
 const sectionOfFirstPartPage = document.getElementById(
   "sectionOfFirstPartPage"
 );
-const introInfo = document.getElementById("introInfo");
-const imageArticle = document.getElementById("imageArticle");
-const paragraphOfInfo= document.getElementById("paragraphOfInfo");
 
-introInfo.innerHTML = `<h2 id="headerInFirstSection">ברוכים הבאים לחנות לכל הגילאים</h2>`;
-paragraphOfInfo.innerHTML =`<p id="infoAboutTheStore">ושם לוקח פרטיים אלה בחנויות רוב המאות שכונתיות להיות חפצים,<br> ישנם הפרטי מבוקשו חנויות
- הוא מפני חנויות מכולת<br> חנויות מוצרים. 
-  גנבות כל למצוא אותו היא הקניה שונים לו <br>של חנויות, קופאי המכירות ללקוח מקום וחנויות רחב<br> המוצרים בסמיכותשבו מגוון
-. שתפקידם המיועדים מוצרים יכולות במהלך להקצות היסטוריה מוצרים<br> משרת יש, ובסיום את היו שבהן 
- <br>ישנם כלל חנויות אמור הלקוח חנויות. קדמיים אנשים בוצעו בו שונים  </p>
-<button type="button" id="startToShop">להתחלת קניה לחץ כאן!</button>`
+const imageArticle = document.getElementById("imageArticle");
+
 
 var imagesInArticle = [
   "https://cdn.pixabay.com/photo/2016/12/22/12/53/pieces-of-the-puzzle-1925422_960_720.jpg",
@@ -38,16 +30,7 @@ setInterval(() => {
   moveimgImgs();
 },3500);
 
-const productInFirstPage = document.getElementById("productInFirstPage")
-const firstProduct =document.getElementById("firstProduct");
-const secondProduct =document.getElementById("secondProduct");
-const thirdProduct =document.getElementById("thirdProduct");
-const forthProduct =document.getElementById("forthProduct");
 
-firstProduct.innerHTML =`<img src="https://sm.ign.com/ign_il/screenshot/default/js-1_33d6.png" id="designOfFirstProduct" class="img__img"><p class="img__description">משחקי קופסא</p>`
-secondProduct.innerHTML=`<img src="https://konimboimages.s3.amazonaws.com/system/photos/2803942/large/d475de026451d9124bba67ef5b9a86e3.jpg" id="designOfSecondProduct" class="img__img"><p class="img__description">בובות פעולה</p>`
-thirdProduct.innerHTML=`<img src="https://www.amigo.co.il/wp-content/uploads/2020/01/1108_Multi-Colored-Crayon-Factory_box_EN.png" id="designOfThirdProduct" class="img__img"><p class="img__description">משחקי יצירה</p>`
-forthProduct.innerHTML=`<img src="https://dandealonline.co.il/wp-content/uploads/2020/08/3613.png" id="designOfForthProduct" class="img__img"><p class="img__description">פאזל ולגו</p>`
 
 const partTwoOfPage = document.getElementById("partTwoOfPage")
 const newPrudactOnStore = document.getElementById("newPrudactOnStore")

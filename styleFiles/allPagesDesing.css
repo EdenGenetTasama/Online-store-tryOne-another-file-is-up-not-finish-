@@ -1,6 +1,11 @@
+*{
+    text-align: center;
+}
+
 #headerFirstPage{
     text-align: center;
     font-size: 60px;
+    
 }
 
 .organizing{
@@ -15,12 +20,24 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 
+
 }
 
+#imgInsideBox{
+    /* margin: 10px; */
+    /* padding:0% !important; */
+    width: 250px;
+    height:250px;
+}
 
-.desingOfAllObject{
+.desingOfAllObject {
     width: 350px;
-    height:300px;
+    height:360px;
     border: 3px solid blue;
     margin: 25px;
+}
+
+#sortButton {
+    width: 50px;
+    height:25px;
 }
